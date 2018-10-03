@@ -1,0 +1,22 @@
+title: Family
+@extends:
+    type: collection
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      fields:
+        features:
+          type: tab
+          title: ✴ Family
+          icon: folder
+          text: Details for Family
+
+          fields:
+
+            header.species.description:
+              type: text
+              label: Description
+              help: Help for the Description
+              size: medium

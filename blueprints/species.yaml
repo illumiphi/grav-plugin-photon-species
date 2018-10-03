@@ -1,0 +1,81 @@
+title: Species
+@extends:
+    type: article
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      fields:
+        header.data.species:
+          type: tab
+          title: ✴ Species
+          icon: folder
+          text: Details for Species
+
+          fields:
+
+            .commonName:
+              type: text
+              label: PHOTON.species.commonName
+              help: PHOTON.species.commonName
+              size: medium
+
+            .scientificName:
+              type: text
+              label: PHOTON.species.scientificName
+              help: PHOTON.species.scientificName
+              size: medium
+
+            .commonFamilyName:
+              type: text
+              label: PHOTON.species.commonFamilyName
+              help: PHOTON.species.commonFamilyName
+              size: medium
+
+            .scientificFamilyName:
+              type: text
+              label: PHOTON.species.scientificFamilyName
+              help: PHOTON.species.scientificFamilyName
+              size: medium
+
+            .habitat:
+              type: text
+              label: PHOTON.species.habitat
+              help: PHOTON.species.habitat
+              size: medium
+
+            .floweringStart:
+              type: text
+              label: PHOTON.species.floweringStart
+              help: PHOTON.species.floweringStart
+              size: medium
+
+            .floweringEnd:
+              type: text
+              label: PHOTON.species.floweringEnd
+              help: PHOTON.species.floweringEnd
+              size: medium
+
+            .gardenLocation:
+              type: text
+              label: PHOTON.species.gardenLocation
+              help: PHOTON.species.gardenLocation
+              size: medium
+
+            .nativeTo:
+              type: text
+              label: PHOTON.species.nativeTo
+              help: PHOTON.species.nativeTo
+              size: medium
+
+            .datePlanted:
+              type: text
+              label: PHOTON.species.datePlanted
+              help: PHOTON.species.datePlanted
+              size: medium
+
+    # gardenLocation: ""
+    # floweringEnd: "May"
+    # nativeTo: "Pacific Northwest"
+    # datePlanted: "Unknown"

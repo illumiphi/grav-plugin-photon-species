@@ -1,0 +1,13 @@
+PHOTON:
+  species:
+    _label: Species Details
+    commonName: Common Name
+    scientificName: Scientific Name
+    commonFamilyName: Common Family
+    scientificFamilyName: Scientific Family
+    habitat: habitat
+    floweringStart: Flowering Start
+    floweringEnd: Flowering End
+    gardenLocation: Garden Location
+    nativeTo: Native To
+    datePlanted: Date Planted
