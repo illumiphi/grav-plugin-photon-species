@@ -1,6 +1,6 @@
 title: Genus
 @extends:
-    type: collection
+    type: article
     context: blueprints://pages
 
 form:

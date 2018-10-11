@@ -1,0 +1,22 @@
+// default style for an article
+// start with a single column grid
+// top children have named grid areas
+
+article.species {
+
+  > figure {
+    max-height: none;
+    background: none;
+    > img {
+      object-fit: contain;
+      height: 100%;
+      transition: .5s;
+
+      &:hover {
+        object-fit: none;
+        // width: 200%;
+      }
+    }
+  }
+
+}

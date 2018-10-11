@@ -1,6 +1,6 @@
 title: Family
 @extends:
-    type: collection
+    type: article
     context: blueprints://pages
 
 form:
