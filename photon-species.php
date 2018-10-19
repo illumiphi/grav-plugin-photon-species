@@ -88,7 +88,6 @@ class PhotonSpeciesPlugin extends Plugin
           $css = 'plugin://photon-species/assets/species.css';
           // $assets->addCss($css, 100, false, 'photon-plugins' );
           $assets->addCss($css, 100, false, 'photon-plugins' );
-
         }
 
         // scripts
@@ -96,10 +95,8 @@ class PhotonSpeciesPlugin extends Plugin
           $js = 'plugin://photon-species/assets/species.js';
           $assets->addJs($js, 100, false, 'defer', 'photon-plugins' );
         }
-
-
       }
-    }
+
       if ($page->template() == 'family')
       {
 
@@ -108,7 +105,6 @@ class PhotonSpeciesPlugin extends Plugin
           $css = 'plugin://photon-species/assets/family.css';
           // $assets->addCss($css, 100, false, 'photon-plugins' );
           $assets->addCss($css, 100, false, 'photon-plugins' );
-
         }
 
         // scripts
@@ -117,9 +113,8 @@ class PhotonSpeciesPlugin extends Plugin
           $assets->addJs($js, 100, false, 'defer', 'photon-plugins' );
         }
 
-
       }
-    }
+
       if ($page->template() == 'genus')
       {
 
@@ -128,7 +123,6 @@ class PhotonSpeciesPlugin extends Plugin
           $css = 'plugin://photon-species/assets/genus.css';
           // $assets->addCss($css, 100, false, 'photon-plugins' );
           $assets->addCss($css, 100, false, 'photon-plugins' );
-
         }
 
         // scripts
@@ -136,8 +130,6 @@ class PhotonSpeciesPlugin extends Plugin
           $js = 'plugin://photon-species/assets/genus.js';
           $assets->addJs($js, 100, false, 'defer', 'photon-plugins' );
         }
-
-
       }
     }
 
