@@ -2,7 +2,7 @@
 /* photon ✴ species Components and Templates */
 /* articles/species *****************************/
 article.species > figure { max-height: none; background: none; }
-article.species > figure > img { object-fit: contain; height: 100%; transition: .5s; }
+article.species > figure > img { object-fit: cover; height: 100%; transition: .5s; }
 article.species > figure > img:hover { object-fit: none; }
 
 /* templates/species *****************************/

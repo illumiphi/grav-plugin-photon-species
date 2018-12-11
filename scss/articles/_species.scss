@@ -8,7 +8,7 @@ article.species {
     max-height: none;
     background: none;
     > img {
-      object-fit: contain;
+      object-fit: cover;
       height: 100%;
       transition: .5s;
 
