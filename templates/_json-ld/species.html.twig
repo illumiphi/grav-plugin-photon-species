@@ -1,0 +1,18 @@
+{% set species = page.header.data.species %}
+  <script type="application/ld+json">
+    {
+      "@context": "http://gerdemanngarden.com",
+      "@type": "species",
+      "commonName": "{{ species.commonName }}",
+      "scientificName": "{{ species.scientificName }}",
+      "commonFamilyName": "{{ species.commonFamilyName }}",
+      "scientificFamilyName": "{{ species.scientificFamilyName }}",
+      "habitat": "{{ species.habitat }}",
+      "floweringStart": "{{ species.floweringStart }}",
+      "floweringEnd": "{{ species.floweringEnd }}",
+      "image": "{{ featured_image }}",
+      "url": "{{ species.url }}"
+    }
+  </script>
+
+  
