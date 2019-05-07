@@ -5,10 +5,10 @@
     {% include "_articles/_block/article_header_excerpt.html.twig" with { 'article': article } %}
     {% include "_articles/_block/article_main_excerpt.html.twig" with { 'article': article } %}
     <section class="collection">
-      
-      {% for article in article.collection %}
+      <h1>Species</h1>
+      {% for sub_article in article.collection %}
         {# % if not (article.url == article.url) and article.routable == true and article.visible == true % #}
-          {% include ["_articles/#{ article.template }-excerpt.html.twig", "_articles/article-excerpt.html.twig"] with { 'article': article } %}
+          {% include ["_articles/#{ sub_article.template }-excerpt.html.twig", "_articles/article-excerpt.html.twig"] with { 'article': sub_article } %}
         {# % endif % #}
       {% endfor %}
 
