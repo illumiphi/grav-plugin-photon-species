@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": ";AAAA,+CAA+C;AAQ/C,kDAAkD;ACNhD,wBAAS,GACP,MAAM,EAAE,IAAI,EACZ,UAAU,EAAE,IAAI,EAChB,UAAU,EAAE,IAAI;AAChB,8BAAM,GACJ,UAAU,EAAE,KAAK,EACjB,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI;;ADClB,mDAAmD;AEJ/C,6BAAU,GACR,UAAU,EAAE,wDAAwD,EACpE,kBAAkB,EAAE,WAAW;ACLjC,wBAA4B,GDW1B,6BAAU,GACR,UAAU,EAAE,kCAAkC",
-"sources": ["../scss/species.scss","../scss/articles/_species.scss","../scss/templates/_species.scss","../../../themes/photon/scss/_media/_mixins.scss"],
-"names": [],
-"file": "species.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/species.scss"],"names":[],"mappings":";AAAA;AAMA;AAEA","file":"species.css"}
