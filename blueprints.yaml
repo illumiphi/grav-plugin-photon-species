@@ -5,8 +5,7 @@ author:
   name: phi ARCHITECT
   email: phi@photon-platform.net
 homepage: https://github.com/photon-platform/grav-plugin-photon-species
-docs: https://github.com/i-am-phi/grav-plugin-photon-species/blob/develop/README.md
-bugs: https://github.com/i-am-phi/grav-plugin-photon-species/issues
+docs: https://photon-platform.github.io/grav-plugin-photon-species/
 keywords: datatype, photon
 icon: asterisk
 license: MIT
