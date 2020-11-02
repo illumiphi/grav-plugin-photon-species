@@ -1,15 +1,14 @@
 name: photon ✴ Species
 version: 0.1.0
 description: templates for species
-icon: asterisk
 author:
-  name: illumiphi
-  email: phi@illumiphi.com
-homepage: https://github.com/i-am-phi/grav-plugin-photon-species
-demo: https://illumiphi.com
-keywords: datatype, photon
-bugs: https://github.com/i-am-phi/grav-plugin-photon-species/issues
+  name: phi ARCHITECT
+  email: phi@photon-platform.net
+homepage: https://github.com/photon-platform/grav-plugin-photon-species
 docs: https://github.com/i-am-phi/grav-plugin-photon-species/blob/develop/README.md
+bugs: https://github.com/i-am-phi/grav-plugin-photon-species/issues
+keywords: datatype, photon
+icon: asterisk
 license: MIT
 
 dependencies:

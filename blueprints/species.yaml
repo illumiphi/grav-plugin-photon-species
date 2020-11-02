@@ -1,5 +1,5 @@
 title: Species
-@extends:
+'@extends':
     type: article
     context: blueprints://pages
 
@@ -75,7 +75,3 @@ form:
               help: PHOTON.species.datePlanted
               size: medium
 
-    # gardenLocation: ""
-    # floweringEnd: "May"
-    # nativeTo: "Pacific Northwest"
-    # datePlanted: "Unknown"
